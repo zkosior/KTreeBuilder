@@ -1,0 +1,44 @@
+Tree Builder
+
+Your task is to write a program that creates a K-nary tree (i.e. a tree where every node has
+up to K children) to represent numbers in a K-based system.
+
+Each node, aside from the root, has an assigned value from 0 to K-1, starting with the left-
+most child. A given number X, while represented in the K-based system, is stored as a path
+in the K-nary tree with the most significant digit stored in one of the root’s children. Many
+numbers can share the same node for the same level of the tree i.e.: in the Sample 1 below,
+numbers 1 and 2 share the node ‘1’.
+
+Once the tree is built, the program should output the tree contents in the post order. You
+can assume the root is simply empty.
+
+Input (via standard input):
+
+First line contains the tree order (2 <= K <= 9). Further lines contain integers to be
+represented in the specified K-based system and stored in the tree (from 1 to 1 000 000).
+Input ends with a 0 value.
+
+Output (via standard output):
+
+Tree content in the post order, all in one line.
+
+Sample 1:
+Input:
+2
+1
+2
+0
+
+Output:
+01
+
+Sample 2:
+Input:
+4
+7
+43
+2
+0
+
+Output:
+31322

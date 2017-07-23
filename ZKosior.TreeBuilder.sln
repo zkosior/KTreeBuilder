@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZKosior.TreeBuilder", "ZKosior.TreeBuilder\ZKosior.TreeBuilder.csproj", "{F3BCAA36-43B1-4050-8897-63671284AF16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZKosior.TreeBuilder.Test", "ZKosior.TreeBuilder.Test\ZKosior.TreeBuilder.Test.csproj", "{C51FB57A-6939-46A9-82E8-6F307C0CBA99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2BE8641-A7B2-4459-9505-D113E2E0F459}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		ZKosior.TreeBuilder.vsmdi = ZKosior.TreeBuilder.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ZKosior.TreeBuilder.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Debug|x86.ActiveCfg = Debug|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Debug|x86.Build.0 = Debug|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Release|Any CPU.ActiveCfg = Release|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Release|x86.ActiveCfg = Release|x86
+		{F3BCAA36-43B1-4050-8897-63671284AF16}.Release|x86.Build.0 = Release|x86
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C51FB57A-6939-46A9-82E8-6F307C0CBA99}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
